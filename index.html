@@ -28,8 +28,8 @@
         }).addTo(map);
 
         // Adiciona o GeoTIFF ao mapa
-            var geotiffLayer = L.leafletGeotiff('https://cors-anywhere.herokuapp.com/https://jvmbravo.github.io/pmcbraves2019/pmc2019braves_4326.tif', ;
-        {renderer: L.LeafletGeotiff.Plotty,
+        var geotiffLayer = L.leafletGeotiff('https://cors-anywhere.herokuapp.com/https://jvmbravo.github.io/pmcbraves2019/pmc2019braves_4326.tif', {
+            renderer: L.LeafletGeotiff.Plotty,
             colorScale: 'spectral', // Escala de cores
             opacity: 0.8 // Opacidade da camada
         }).addTo(map);
